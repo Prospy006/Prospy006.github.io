@@ -26,14 +26,23 @@
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: #121212;
+    background-color: #000000;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
 }
 
+.nav-links {
+    display: flex;
+    margin-left: 55px; /* Adjust this value if needed */
+}
+
+
 /* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #f2f2f2;
+.nav-links a {
+    color: #ffffff;
     padding: 20px 24px;
     text-align: center;
     text-decoration: none;
@@ -49,8 +58,12 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #002869;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.topright-nav {
+    right: 15px;
 }
 
     /*WEBPAGE*/
