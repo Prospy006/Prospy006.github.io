@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <link rel="preload" href="./res/fon/Montserrat-Medium.ttf" as="font" type="font/ttf" crossorigin>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.8/dist/lenis.css">
+        <link rel="icon" href="./res/img/logo.svg" type="image/svg+xml">
+    </head>
+    <body>
+        <nav class="topnav">
+            <a class="nav-a">
+                <img src="./res/img/menu.svg">
+            </a>
+        </nav>
+        <div class="lander">
+            <div class="title">
+                <h1>Hello, Stalker</h1>
+            </div>
+            <div class="comment">
+                <h3>What brings you here?</h3>
+            </div>
+        </div>
+        <div class="line-divider"></div>
+        <div class="about-wrapper">
+            <div class="overview">
+                <div class="profile-wrapper">
+                    <div class="profile-pic">
+                        <img src="./res/img/prortfolio-pic.jpg" alt="Profile Picture">
+                    </div>
+                </div>
+                <div class="overview-text">
+                    <h2>Prospy006</h2>
+                    <p>Aspiring Game Developer</p>
+                    <p>Frontend enthusiast with a gift for design</p>
+                    <p>Obsessed with code, creativity, and crafting fascinating stories</p>
+                    <p>Cooking up a new game</p>
+                </div>
+            </div>
+            <div class="about">
+                <h2>About Me</h2>
+                <div class="about-text">
+                    <p>Hello! I'm Prospy, a game developer in the making.</p>
+                    <p>I dream of building games that offer a little escape- a moment of joy in a chaotic world.</p>
+                    <p>Feel free to explore my portfolio and reach out if something attracts your interest!</p>
+                    <p>I'm currently learning GDScript for Godot</p>
+                    <p>I'm pretty familiar with languages such as</p>
+                    <div class="languages">
+                        <a class="lang-button"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"></a>
+                        <a class="lang-button"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"></a>
+                        <a class="lang-button"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"></a>
+                        <a class="lang-button"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg"></a>
+                        <a class="lang-button"><img src="./res/img/rust-original.svg"></a>
+                    </div>
+                    <p>and a little more of others.</p>
+                </div>
+            </div>
+        </div>
+        <div class="works">
+            <h2>My Works</h2>
+            <div class="work-section">
+                <div class="work-panel">
+                    <a class="work-panel-img" onclick="window.open('https:\/\/prospy006.itch.io/dark-quiet-death')">
+                        <img src="./res/img/DQD-Poster.png">
+                    </a>
+                    <div class="work-panel-desc">
+                        <h3>Dark Quiet Death</h3>
+                        <p> Dark Quiet Death is a Godot 4 survival-collection game written in GDScript with GDShader-powered lighting.</p>
+                        <p>You explore procedurally generated dungeons, recharge your torch at scattered ports, and occasionally earn memory shards that drive the final confrontation.</p>
+                        <p>Hand-drawn sprites, dynamic shadows and a minimalist soundscape create a tense atmosphere where every step of feels like a gamble.</p>
+                    </div>
+                </div>
+                <div class="work-panel">
+                    <div class="work-panel-desc">
+                        <h3>Nerdifier</h3>
+                        <p>Nerdifier is a single-page app that turns productivity into a game.</p>
+                        <p>It combines to-do lists, Pomodoro-style timers, in-app notes, scheduling, progress stats and leaderboards with calming background music.</p>
+                        <p>A “lock-in” reward loop and timed boosts mimic corporate incentives to keep you hooked on leveling up.</p>
+                        <p>Built from scratch with custom file routing and dynamic module loading for an instant and distraction-free learning experience.</p>
+                    </div>
+                    <a class="work-panel-img" onclick="window.open('https:\/\/nerdifier.github.io/app/')">
+                        <img src="./res/img/Nerdifier-Poster.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+
+            </div>
+        </div>
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <p>Want to connect? Drop a message via email, I'd love to hear from you.</p>
+            <div class="links">
+                <a class="link-button" onclick="window.location.href='mailto:prospy006@gmail.com?subject=Hello&body=I saw your portfolio!'"><img src="./res/img/soc/email.svg"></a>
+                <a class="link-button" onclick="window.open('https:\/\/www.linkedin.com/in/prospy006')"><img src="./res/img/soc/linkedin.svg" style="scale: 0.85;"></a>
+                <a class="link-button" onclick="window.open('https:\/\/discord.com/users/754592344522752080')"><img src="./res/img/soc/discord.svg"></a>
+                <a class="link-button" onclick="window.open('https:\/\/github.com/Prospy006')"><img src="./res/img/soc/github.svg"></a>
+            </div>
+        </div>
+        <script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
